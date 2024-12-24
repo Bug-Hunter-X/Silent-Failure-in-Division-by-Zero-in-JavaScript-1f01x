@@ -1,0 +1,1 @@
+function foo(a,b){    if(a === 0 || b === 0) {        return 0;    }    return a/b;};foo(0,0); //This will return 0 instead of an error
